@@ -1,7 +1,7 @@
 name: Deploying application using Blue-Green Deployment
 
 on:
-  push:
+  pull_request: 
     branches:
       - main
 
